@@ -603,12 +603,12 @@ function Home() {
             >
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" >
-                  <div class="testimonial4_slide" style={{textAlign:"justify"}}>
+                  <div class="testimonial4_slide" >
                     <img
                       src="https://i.ibb.co/8x9xK4H/team.jpg"
                       class="img-circle img-responsive"
                     />
-                    <p>
+                    <p style={{textAlign:"justify"}}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
@@ -619,12 +619,12 @@ function Home() {
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="testimonial4_slide" style={{textAlign:"justify"}}>
+                  <div class="testimonial4_slide">
                     <img
                       src="https://i.ibb.co/8x9xK4H/team.jpg"
                       class="img-circle img-responsive"
                     />
-                    <p>
+                    <p  style={{textAlign:"justify"}}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
@@ -635,12 +635,12 @@ function Home() {
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="testimonial4_slide" style={{textAlign:"justify"}}>
+                  <div class="testimonial4_slide" >
                     <img
                       src="https://i.ibb.co/8x9xK4H/team.jpg"
                       class="img-circle img-responsive"
                     />
-                    <p>
+                    <p style={{textAlign:"justify"}}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown

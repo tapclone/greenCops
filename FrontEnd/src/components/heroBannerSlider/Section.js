@@ -34,7 +34,7 @@ function Section() {
         <Wrapper>
           <Title>Green Corps</Title>
           <Subtitle>
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+          WE GUARD WHAT IS PRECIOUS TO YOU. YOUR PEACE OF MIND
           </Subtitle>
         </Wrapper>
       </Overlay>
