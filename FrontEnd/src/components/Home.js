@@ -459,7 +459,13 @@ function Home() {
                     <h2>Why Choose Us</h2>
                   </div>
                   <div class="choose-resone-inner mt-20">
-                    <p style={{textAlign:"justify",hyphens:"auto",fontSize:"large"}}>
+                    <p
+                      style={{
+                        textAlign: "justify",
+                        hyphens: "auto",
+                        fontSize: "large",
+                      }}
+                    >
                       We realize that a major concern in urban residential
                       sector is the non-availability of trustworthy cleaning
                       personnel to do their job while one is at work. That's why
@@ -470,7 +476,7 @@ function Home() {
                       and don'ts. In other words, with Green Corps, you can
                       safely leave your key behind regardless of where you are.
                     </p>
-{/* 
+                    {/* 
                     <div class="service text-start service-6 reapir-service mt-30">
                       <div class="icons">
                         <img
@@ -526,13 +532,12 @@ function Home() {
               </div>
               <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="reapir-choose-inner">
-            
                   <div class="choose-resone-inner mt-20">
-                  <img
+                    <img
                       src="assets/images/bg/security-man-standing-outdoors-using-portable-radio.jpg"
                       alt="Agency Images"
                     />
-{/* 
+                    {/* 
                     <div class="service text-start service-6 reapir-service mt-30">
                       <div class="icons">
                         <img
@@ -602,13 +607,13 @@ function Home() {
               data-duration="2000"
             >
               <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" >
-                  <div class="testimonial4_slide" >
+                <div class="carousel-item active">
+                  <div class="testimonial4_slide">
                     <img
                       src="https://i.ibb.co/8x9xK4H/team.jpg"
                       class="img-circle img-responsive"
                     />
-                    <p style={{textAlign:"justify"}}>
+                    <p style={{ textAlign: "justify" }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
@@ -624,7 +629,7 @@ function Home() {
                       src="https://i.ibb.co/8x9xK4H/team.jpg"
                       class="img-circle img-responsive"
                     />
-                    <p  style={{textAlign:"justify"}}>
+                    <p style={{ textAlign: "justify" }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
@@ -635,12 +640,12 @@ function Home() {
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="testimonial4_slide" >
+                  <div class="testimonial4_slide">
                     <img
                       src="https://i.ibb.co/8x9xK4H/team.jpg"
                       class="img-circle img-responsive"
                     />
-                    <p style={{textAlign:"justify"}}>
+                    <p style={{ textAlign: "justify" }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown

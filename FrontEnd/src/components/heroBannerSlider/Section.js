@@ -4,10 +4,10 @@ import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
 import Wrapper from "./writings/wraper";
 import Title from "./writings/title";
 import Subtitle from "./writings/subtitle";
-const bogliasco = "https://i.imgur.com/Gu5Cznz.jpg";
-const countyClare = "https://i.imgur.com/idjXzVQ.jpg";
-const craterRock = "https://i.imgur.com/8DYumaY.jpg";
-const giauPass = "https://i.imgur.com/8IuucQZ.jpg";
+const bogliasco = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672662049/greencopsbannerimage_oedomk.jpg";
+const countyClare = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672662049/greencopsbannerimage_oedomk.jpg";
+const craterRock = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672662049/greencopsbannerimage_oedomk.jpg";
+const giauPass = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672662049/greencopsbannerimage_oedomk.jpg";
 function Section() {
   return (
       <HeroSlider
