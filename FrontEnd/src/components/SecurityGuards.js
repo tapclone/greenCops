@@ -27,7 +27,7 @@ function SecurityGuards() {
         </div>
       </div>
 
-      <main class="page-content">
+      <main class="page-content" data-aos="fade-right">
         <div class="section-service bg-gray section-pt section-pb-90">
           <div class="container">
             <div class="row">
@@ -57,7 +57,7 @@ function SecurityGuards() {
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                 <div class="service text-center service-2 padding-none cleaning-service mb-30">
                   <div class="thumb">
                     <img
@@ -71,7 +71,7 @@ function SecurityGuards() {
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                 <div class="service text-center service-2 padding-none cleaning-service  mb-30">
                   <div class="thumb">
                     <img
@@ -85,7 +85,7 @@ function SecurityGuards() {
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                 <div class="service text-center service-2 padding-none cleaning-service  mb-30">
                   <div class="thumb">
                     <img
@@ -99,7 +99,7 @@ function SecurityGuards() {
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                 <div class="service text-center service-2 padding-none cleaning-service  mb-30">
                   <div class="thumb">
                     <img
@@ -112,7 +112,7 @@ function SecurityGuards() {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                 <div class="service text-center service-2 padding-none cleaning-service  mb-30">
                   <div class="thumb">
                     <img
@@ -126,7 +126,7 @@ function SecurityGuards() {
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-12">
+              <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                 <div class="service text-center service-2 padding-none cleaning-service  mb-30">
                   <div class="thumb">
                   

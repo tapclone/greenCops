@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import './home.css'
 
 import Section from "./heroBannerSlider/Section";
 // import Carousels from "react-simply-carousel";
 
 function Home() {
+
+    
   // const [activeSlide, setActiveSlide] = useState(0);
   return (
     <div>
@@ -32,11 +35,11 @@ function Home() {
     
 </div> */}
       <main class="page-content">
-        <div class="section-service" style={{ marginTop: "3rem" }}>
+        <div class="section-service"  style={{ marginTop: "3rem" }}>
           <div class="container-fluid plr_-0">
             <div class="row g-0">
               <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="row-service-wrap_white">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap_white servicesDetails">
                   <div class="service text-start service-6 medical-service">
                     <div class="icons">
                       <img
@@ -58,7 +61,7 @@ function Home() {
               </div>
 
               <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="row-service-wrap">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
                   <div class="service text-start service-6 medical-service service-bg-2">
                     <div class="icons">
                       <img
@@ -80,7 +83,7 @@ function Home() {
               </div>
 
               <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="row-service-wrap_white">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap_white servicesDetails">
                   <div class="service text-start service-6 medical-service">
                     <div class="icons">
                       <img
@@ -102,7 +105,7 @@ function Home() {
               </div>
 
               <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="row-service-wrap">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
                   <div class="service text-start service-6 medical-service service-bg-2">
                     <div class="icons">
                       <img
@@ -125,7 +128,7 @@ function Home() {
           </div>
         </div>
 
-        <div class="section-agency-benefit section-pt section-pb">
+        <div data-aos="fade-up-right" class="section-agency-benefit section-pt section-pb">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6">
@@ -166,7 +169,7 @@ function Home() {
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="agency-thumb">
+                <div data-aos="fade-up-left" class="agency-thumb">
                   <div class="thumb">
                     <img src="assets/images/bg/new.jpg" alt="Agency Images" />
                     {/* <div class="play-btn">
@@ -184,7 +187,7 @@ function Home() {
           </div>
         </div>
 
-        <div
+        <div data-aos='zoom-in'
           class="section-agency-benefit section-pt section-pb"
           style={{ backgroundColor: "beige" }}
         >
@@ -450,7 +453,7 @@ function Home() {
           </div>
         </div> */}
 
-        <div class="reapir-choose-us section-ptb">
+        <div class="reapir-choose-us section-ptb" data-aos="zoom-out">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6 col-md-12 col-sm-12 col-12">
