@@ -14,10 +14,10 @@ function Clients() {
   },[])
   return (
     <div>
-      <div class="breadcrumb-area bg-image section-ptb" style={{ background: 'url(assets/images/bg/breadcrumb-bg.jpg)' }}>
+      <div class="breadcrumb-area bg-image section-ptb" style={{ background: 'url(assets/images/bg/our-clients.jpg)' }}>
         <div class="container">
           <div class="row breadcrumb">
-            <div class="col">
+            <div class="col mt-5">
               <h2>Clients</h2>
 
               <ul class="breadcrumb-list">

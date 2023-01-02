@@ -8,10 +8,11 @@ function Header() {
   return (
 
         <div className='headerMain'  style={navBarActive?{height:'fit-content',}:{height:'5rem'}}>
-        <img src="https://preview.colorlib.com/theme/franclin/assets/img/logo/logo.png.webp" alt="" />
+          
+        <img src="assets/images/logo/logo.png" style={{cursor:"pointer"}} onClick={(e)=>{navigate('/')}} alt=""/>
         <a href="/" id='home' className='nav'>Home</a>
         <a  className='nav service' style={{position:'relative'}}>Services
-        <div className='serviceDropDown' style={{backgroundColor:'rgba(0,0,0,0.4)',width:'9rem'}}>
+        <div className='serviceDropDown' style={{backgroundColor:'white',width:'9rem'}}>
           <div><p onClick={()=>navigate('/houseKeeping')}>House Keeping</p> </div>
           <div><p onClick={()=>navigate('/securityGuards')}>Security Guards</p> </div>
         </div>

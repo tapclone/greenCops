@@ -101,7 +101,7 @@
 }
 .serviceDropDown{
   display: none;
-  color: white;
+  color: black;
   position: absolute;
   top: 100%;
   left: -2rem;

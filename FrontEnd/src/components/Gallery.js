@@ -15,15 +15,15 @@ function Gallery() {
     return (
         <div>
             <Header></Header>
-            <div class="breadcrumb-area bg-image section-ptb" style={{ background: 'url(assets/images/bg/breadcrumb-bg.jpg)' }} >
+            <div class="breadcrumb-area bg-image section-ptb" style={{ background: 'url(assets/images/bg/gallery-bg.jpg)' }} >
                 <div class="container">
                     <div class="row breadcrumb" >
                         <div class="col" style={{marginTop:'4rem'}}>
-                            <h2>Gallery</h2>
+                            <h2 style={{color:"black"}}>Gallery</h2>
 
                             <ul class="breadcrumb-list">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active">Gallery</li>
+                                <li class="breadcrumb-item" ><a href="/" style={{color:"black"}}>Home</a></li>
+                                <li class="breadcrumb-item active" style={{color:"black"}}>Gallery</li>
                             </ul>
 
                         </div>

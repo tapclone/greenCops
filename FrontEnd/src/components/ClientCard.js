@@ -1,9 +1,11 @@
 import React from 'react'
-
+import './clientCard.css'
 function ClientCard({image,name}) {
   return (
-    <div className='col-md-4'>
-        <img src={image} style={{width:'100%',height:'100%'}} alt="" />
+    <div className='col-md-4 clientCard' style={{padding:"1px"}}>
+        <img src={image}  alt="" />
+        <div className='cardLayer'></div>
+        <p className='cardContent'>{name}</p>
     </div>
   )
 }
