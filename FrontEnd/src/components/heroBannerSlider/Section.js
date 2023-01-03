@@ -1,15 +1,31 @@
-import React from 'react'
+import {React,useEffect,useState} from 'react'
 import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
 
 import Wrapper from "./writings/wraper";
 import Title from "./writings/title";
 import Subtitle from "./writings/subtitle";
-const bogliasco = "https://i.imgur.com/Gu5Cznz.jpg";
-const countyClare = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672662049/greencopsbannerimage_oedomk.jpg";
-const craterRock = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672662049/greencopsbannerimage_oedomk.jpg";
-const giauPass = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672662049/greencopsbannerimage_oedomk.jpg";
+const slider1 = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672734596/ezgif.com-gif-maker-5_eo57js.webp";
+const slider2 = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672734596/ezgif.com-gif-maker-5_eo57js.webp";
+const slider3 = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672734596/ezgif.com-gif-maker-5_eo57js.webp";
+const slider4 = "https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672734596/ezgif.com-gif-maker-5_eo57js.webp";
+const slider1Resp="https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672734673/ezgif.com-gif-maker-6_lky6io.webp";
+const slider2Resp="https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672734673/ezgif.com-gif-maker-6_lky6io.webp";
+const slider3Resp="https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672734673/ezgif.com-gif-maker-6_lky6io.webp";
+const slider4Resp="https://res.cloudinary.com/www-menscarts-shop/image/upload/v1672734673/ezgif.com-gif-maker-6_lky6io.webp";
+
 function Section() {
+  const [state,setState]=useState(false)
+
+  useEffect(()=>{
+    if(window.innerWidth<700){
+      setState(true)
+    }else{
+      setState(false)
+    }
+  },[window.innerWidth])
+  
   return (
+    <div style={{marginTop:'5rem'}}>
       <HeroSlider
       height={"100vh"}
       autoplay
@@ -30,46 +46,40 @@ function Section() {
       }}
     >
 
-<Overlay>
-        <Wrapper>
-          <Title>Green Corps</Title>
-          <Subtitle>
-          WE GUARD WHAT IS PRECIOUS TO YOU. YOUR PEACE OF MIND
-          </Subtitle>
-        </Wrapper>
-      </Overlay>
+
 
 <Slide
         shouldRenderMask
 
         background={{
-          backgroundImageSrc: giauPass
+          backgroundImageSrc: state? slider1:slider1Resp
         }}
       />
 
       <Slide
         shouldRenderMask
         background={{
-          backgroundImageSrc: bogliasco
+          backgroundImageSrc: state? slider2:slider2Resp
         }}
       />
 
       <Slide
         shouldRenderMask
         background={{
-          backgroundImageSrc: countyClare
+          backgroundImageSrc:state? slider3:slider3Resp
         }}
       />
 
       <Slide
         shouldRenderMask
         background={{
-          backgroundImageSrc: craterRock
+          backgroundImageSrc: state?slider4:slider4Resp
         }}
       />
 
       <MenuNav />
     </HeroSlider>
+    </div>
     
   )
 }

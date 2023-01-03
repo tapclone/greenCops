@@ -4,3 +4,11 @@
 .servicesDetails:hover{
  box-shadow: 0 0 11px rgba(33,33,33,.5); ;
 }
+.bannerImg{
+    min-height: 23rem;
+}
+@media (max-width:370px) {
+    .bannerImg{
+        min-height: 15rem;
+    }
+}

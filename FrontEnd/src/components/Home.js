@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './home.css'
 
 import Section from "./heroBannerSlider/Section";
+import BannerSlider from "./BannerSlider";
 // import Carousels from "react-simply-carousel";
 
 function Home() {
@@ -10,8 +11,7 @@ function Home() {
   // const [activeSlide, setActiveSlide] = useState(0);
   return (
     <div>
-      <Section></Section>
-
+      <BannerSlider></BannerSlider>
       {/* <div class="hero-section section">
 
     <div class="hero-slider hero-slider-one">

@@ -5,7 +5,13 @@ function Contact() {
     <div>
       <div
         class="breadcrumb-area bg-image section-ptb"
-        style={{ background: "url(assets/images/about/cocontact-us.jpg)",marginTop:"5%" }}
+        style={{
+          background: "url(assets/images/about/cocontact-us.jpg)",
+          backgroundPosition:'center',
+          backgroundSize:'cover',
+          backgroundRepeat:'no-repeat',
+          marginTop:'5rem'
+        }}
       >
         <div class="container">
           <div class="row breadcrumb">
