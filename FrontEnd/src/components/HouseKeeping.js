@@ -1,14 +1,23 @@
-import React from "react";
+import {React,useEffect,useState} from "react";
 
 function HouseKeeping() {
+  const [state,setState]=useState(false)
+  useEffect(()=>{
+    document.documentElement.scrollTop=0;
+  },[state])
+
   return (
-    <div>
+    <div onLoad={()=>setState(true)
+    }>
       <div
         class="breadcrumb-area bg-image section-ptb"
         style={{
           background:
             "url(assets/images/bg/car-mechanic-repair-service-center-cleaning-using-mops-roll-water-from-epoxy-floor-car-repair-service-center.jpg)",
           backgroundRepeat: "no-repeat",
+          backgroundSize:"cover",
+          backgroundPosition:'center',
+          marginTop:'5rem'
         }}
       >
         <div class="container">

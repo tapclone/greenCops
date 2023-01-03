@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import ClientCard from "./ClientCard";
 import axios from "axios";
+import './home2.css'
 
 function Clients() {
   const [clients, setClients] = useState([]);
@@ -12,8 +13,8 @@ function Clients() {
   return (
     <div>
       <div
-        class="breadcrumb-area bg-image section-ptb"
-        style={{ background: "url(assets/images/bg/our-clients.jpg)" }}
+        class="breadcrumb-area bg-image section-ptb clientBg"
+        
       >
         <div class="container">
           <div class="row breadcrumb">
@@ -54,8 +55,8 @@ function Clients() {
             <div className="cardLayer"></div>
             <p className="cardContent">LULU HYPERMARKET</p>
           </div>
-        </div>   
-      </div> 
+        </div>
+      </div>
     </div>
   );
 }

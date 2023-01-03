@@ -17,7 +17,13 @@ function Gallery() {
       <Header></Header>
       <div
         class="breadcrumb-area bg-image section-ptb"
-        style={{ background: "url(assets/images/bg/gallery-bg.jpg)" }}
+        style={{
+          background: "url(assets/images/bg/gallery-bg.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: 'center',
+          marginTop: '5rem'
+
+        }}
       >
         <div class="container">
           <div class="row breadcrumb">

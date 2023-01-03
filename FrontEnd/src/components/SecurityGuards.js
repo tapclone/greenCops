@@ -1,6 +1,11 @@
-import React from "react";
+import {React,useState,useEffect} from "react";
+ 
 
 function SecurityGuards() {
+  const [state,setState]=useState(false)
+  useEffect(()=>{
+    document.documentElement.scrollTop=0;
+  },[state])
   return (
     <div>
       <div
@@ -9,6 +14,9 @@ function SecurityGuards() {
           background:
             "url(assets/images/bg/cctv-security-technology-with-lock-icon-digital-remix.jpg)",
           backgroundRepeat: "no-repeat",
+          backgroundSize:"cover",
+          backgroundPosition:'center',
+          marginTop:'5rem'
         }}
       >
         <div class="container">

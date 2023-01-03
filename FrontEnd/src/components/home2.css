@@ -1,0 +1,17 @@
+.clientBg{
+    background: url('../../public/assets/images/bg/our-clients.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+
+}
+@media (max-width:700px) {
+    .clientBg{
+        background: url('../../public/assets/images/bg/clients-resp.webp');
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+}

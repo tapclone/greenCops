@@ -40,7 +40,13 @@ function About() {
     <div>
       <div
         class="breadcrumb-area bg-image section-ptb"
-        style={{ background: "url(assets/images/about/businessman.jpg)" }}
+        style={{
+          background: "url(assets/images/about/businessman.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: 'center',
+          marginTop: '5rem'
+
+        }}
       >
         <div class="container">
           <div class="row breadcrumb">
@@ -106,7 +112,7 @@ function About() {
                 <div class="agency-thumb">
                   <div class="thumb">
                     <img
-                     src="assets/images/bg/new.jpg"
+                      src="assets/images/bg/new.jpg"
                       alt="Agency Images"
                     />
                     {/* <div class="play-btn">
@@ -213,7 +219,7 @@ function About() {
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-title text-center">
-                  <h2 style={{textAlign:"center"}}>Our Guards</h2>
+                  <h2 style={{ textAlign: "center" }}>Our Guards</h2>
                   {/* <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
                     do eiusmod tempor incididunt ut labore

@@ -189,7 +189,7 @@ function Home() {
 
         <div data-aos='zoom-in'
           class="section-agency-benefit section-pt section-pb"
-          style={{ backgroundColor: "beige" }}
+          style={{ backgroundColor: "beige",marginTop:'1rem' }}
         >
           <div class="container">
             <div class="row align-items-center">
