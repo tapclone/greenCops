@@ -34,12 +34,27 @@ function Clients() {
 
       <div className="container">
         <div className="row" style={{ padding: "2rem 0" }}>
-          {clients.map((item) => {
+          {/* {clients.map((item) => {
             return (
               <ClientCard image={item.image} name={item.Name}></ClientCard>
             );
-          })}
-
+          })} */}
+          <div className="col-md-4 clientCard" style={{ padding: "1px" }}>
+            <img
+              src="https://res.cloudinary.com/dbpxhm5vt/image/upload/v1671711805/Nediyath%20Product%20image/rzoh0qmzpjvet59bcdfq.webp"
+              alt=""
+            />
+            <div className="cardLayer"></div>
+            <p className="cardContent">LULU Y MALL</p>
+          </div>
+          <div className="col-md-4 clientCard" style={{ padding: "1px" }}>
+            <img
+              src="https://res.cloudinary.com/dbpxhm5vt/image/upload/v1671710390/Nediyath%20Product%20image/qyfrmqxifezvyui81ndo.webp"
+              alt=""
+            />
+            <div className="cardLayer"></div>
+            <p className="cardContent">LULU HYPERMARKET</p>
+          </div>
         </div>
       </div>
     </div>

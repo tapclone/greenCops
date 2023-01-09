@@ -12,7 +12,7 @@ function Header() {
     >
       <img
         src="assets/images/logo/logo.png"
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer",width:"12rem" }}
         onClick={(e) => {
           navigate("/");
         }}

@@ -1,6 +1,8 @@
 import React from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 
 function Footer() {
+  const navigate=useNavigate()
   return (
     <footer class="footer">
       <div class="footer-top bg-gray section-pt-90 section-pb">
@@ -32,7 +34,7 @@ function Footer() {
             <div class="col-lg-6 col-md-6 col-sm-6 col-12">
               <div class="footer-widget footer-style-1 space-left">
                 <h5 class="ft-title">
-                  CONTACT <span>US</span>
+                 <a onClick={(e)=>{navigate('/admin')}}> CONTACT <span>US</span></a>
                 </h5>
                 <div class="content">
                   <p>
@@ -43,7 +45,7 @@ function Footer() {
                     <p>0484-2323230</p>
                     <p>8589055501</p>
                     <p>
-                      <a href="#">accounsgreencorps@gmail.com</a>
+                      <a>accounsgreencorps@gmail.com</a>
                     </p>
                   </div>
                 </div>

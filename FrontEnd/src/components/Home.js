@@ -593,15 +593,16 @@ function Home() {
           </div>
         </div> */}
         <div class="container" style={{ textAlign: "center" }}>
-          <div class="col-md-12 section-title mt-5" style={{ textAlign: "center" }}>
-            <h2>
-              RANGE OF SERVICES
-            </h2>
+          <div
+            class="col-md-12 section-title mt-5"
+            style={{ textAlign: "center" }}
+          >
+            <h2>RANGE OF SERVICES</h2>
           </div>
           <div className="serviceScrollSection">
             <div className="serviceCard">
-              <img  src="https://www.ldacr.org/wp-content/uploads/2013/09/What-are-the-Physical-Requirements-to-be-a-Security-Guard.jpg" alt="" />
-              <div style={{ padding:'0.5rem 0.8rem' }}>
+              <img src="assets/images/serviece/security-1.jpg" alt="" />
+              <div style={{ padding: "0.5rem 0.8rem" }}>
                 <h5>Ex-Serviceman Guard</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   Get the best of all security for your place from an
@@ -609,10 +610,10 @@ function Home() {
                 </p>
               </div>
             </div>
-
             <div className="serviceCard">
-              <div style={{ marginLeft: "0.3rem" }}>
-                <h4>Security Executives</h4>
+              <img src="assets/images/serviece/security-2.jpg" alt="" />
+              <div style={{ padding: "0.5rem 0.8rem" }}>
+                <h5>Security Executives</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   Feel secure with our security executives. Having faster
                   decision-making sense makes them different. 
@@ -621,8 +622,9 @@ function Home() {
             </div>
 
             <div className="serviceCard">
-              <div style={{ marginLeft: "0.3rem" }}>
-                <h4>Lady Security Executives </h4>
+              <img src="assets/images/serviece/security-3.jpg" alt="" />
+              <div style={{ padding: "0.5rem 0.8rem" }}>
+                <h5>Lady Security Executives</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   For females, we have lady security executives who are equally
                   strong and intelligent. 
@@ -631,8 +633,9 @@ function Home() {
             </div>
 
             <div className="serviceCard">
-              <div style={{ marginLeft: "0.3rem" }}>
-                <h4>Armed Security Executives </h4>
+              <img src="assets/images/serviece/security-4.jpg" alt="" />
+              <div style={{ padding: "0.5rem 0.8rem" }}>
+                <h5>Armed Security Executives</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   They are the best at the job, with the knowledge to operate
                   the weapon and the best decision-making power during a crisis.
@@ -641,18 +644,22 @@ function Home() {
             </div>
 
             <div className="serviceCard">
-              <div style={{ marginLeft: "0.3rem" }}>
-                <h4>Bodyguards/ Bouncers/ Close protection officers </h4>
+              <img src="assets/images/serviece/security-5.jpg" alt="" />
+              <div style={{ padding: "0.5rem 0.8rem" }}>
+                <h5>Bodyguards/ Bouncers/ Close protection officers</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   For better security, they are the best people because of their
                   great consciousness and strong physic.
                 </p>
               </div>
             </div>
-
             <div className="serviceCard">
-              <div style={{ marginLeft: "0.3rem" }}>
-                <h4>Escort and Pilot Duties </h4>
+              <img
+                src="assets/images/serviece/high-angle-guard-man-protecting-client.jpg"
+                alt=""
+              />
+              <div style={{ padding: "0.5rem 0.8rem" }}>
+                <h5>Escort and Pilot Duties</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   Make your journey more protected with the escort and pilots.
                   Smart profiles and great skills make them the best.
@@ -661,18 +668,22 @@ function Home() {
             </div>
 
             <div className="serviceCard">
-              <div style={{ marginLeft: "0.3rem" }}>
-                <h4>Consultancy Services </h4>
+              <img src="assets/images/serviece/Event-Management.jpg" alt="" />
+              <div style={{ padding: "0.5rem 0.8rem" }}>
+                <h5>Consultancy Services</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   In every path of life you need consultation and we are here
                   for that. Help you get the best suggestions.
                 </p>
               </div>
             </div>
-
             <div className="serviceCard">
-              <div style={{ marginLeft: "0.3rem" }}>
-                <h4>Event Management/ Celebrity program </h4>
+              <img
+                src="assets/images/serviece/airport-security-officer-using-metal-detector-check-bag.jpg"
+                alt=""
+              />
+              <div style={{ padding: "0.5rem 0.8rem" }}>
+                <h5>Event Management/ Celebrity program</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   A celebrity event or any other public event we make the best
                   for you.

@@ -47,11 +47,26 @@ function Gallery() {
 
       <div className="container">
         <div className="row">
-          {gallery.map((item) => {
+          {/* {gallery.map((item) => {
             console.log(item);
             return <GalleryCard item={item}></GalleryCard>;
-          })}
-
+          })} */}
+          <div className="galleryCard col-md-6" style={{ marginTop: "1.5rem" }}>
+            <img
+              className="galleryCardImg"
+              style={{ width: "100%", height: "100%" }}
+              src=" https://res.cloudinary.com/dbpxhm5vt/image/upload/v1671431822/Nediyath%20Product%20image/fxdieitri1wemcu0pt9f.png"
+              alt=""
+            />
+          </div>
+          <div className="galleryCard col-md-6" style={{ marginTop: "1.5rem" }}>
+            <img
+              className="galleryCardImg" 
+              style={{ width: "100%", height: "100%" }}
+              src=" https://res.cloudinary.com/dbpxhm5vt/image/upload/v1671431822/Nediyath%20Product%20image/fxdieitri1wemcu0pt9f.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
       {/* <Footer></Footer> */}
