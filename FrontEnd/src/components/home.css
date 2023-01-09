@@ -43,13 +43,16 @@
 }
 .serviceCard{
     transition: all 0.2s;
-    width: 16rem;
-    height: 18rem;
+    width: 17rem;
+    height: 22rem;
     margin-left: 1rem;
     display: flex;
-    padding: 1rem;
-
+    flex-direction: column;
     background-color: #eae9e8;
+    border-radius: 10px 10px 10px 10px;
+}
+.serviceCard img{
+    border-radius: 10px 10px 0 0;
 }
 .serviceCard:hover{
  box-shadow: 0 0 11px rgba(33,33,33,.5); ;

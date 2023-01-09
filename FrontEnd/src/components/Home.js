@@ -600,7 +600,8 @@ function Home() {
           </div>
           <div className="serviceScrollSection">
             <div className="serviceCard">
-              <div style={{ marginLeft: "0.2rem" }}>
+              <img  src="https://www.ldacr.org/wp-content/uploads/2013/09/What-are-the-Physical-Requirements-to-be-a-Security-Guard.jpg" alt="" />
+              <div style={{ padding:'0.5rem 0.8rem' }}>
                 <h5>Ex-Serviceman Guard</h5>
                 <p style={{ textAlign: "justify", hyphens: "auto" }}>
                   Get the best of all security for your place from an
