@@ -6,9 +6,6 @@ import BannerSlider from "./BannerSlider";
 // import Carousels from "react-simply-carousel";
 
 function Home() {
-
-
-
   // const [activeSlide, setActiveSlide] = useState(0);
   return (
     <div>
@@ -36,169 +33,7 @@ function Home() {
     
 </div> */}
 
-
-      <div className="serviceScrollSection">
-
-        <div className="serviceCard">
-          <div >
-            <img style={{width:'12rem',marginTop:'1rem'}}
-              src="assets/images/icon/service-01.png"
-              alt="service icons"
-            />
-          </div>
-          <div style={{marginLeft:'0.3rem'}}>
-            <h4>Residence Security</h4>
-            <p style={{ textAlign: "justify", hyphens: "auto" }}>
-              Access complete visability through your phone or device.
-              We provide a complete range of security solutions, day
-              and night vision to improve security & enhance
-              capabilities.
-            </p>
-          </div>
-
-        </div>
-
-        <div className="serviceCard">
-          <div >
-            <img style={{width:'12rem',marginTop:'1rem'}}
-              src="assets/images/icon/service-01.png"
-              alt="service icons"
-            />
-          </div>
-          <div style={{marginLeft:'0.3rem'}}>
-            <h4>Residence Security</h4>
-            <p style={{ textAlign: "justify", hyphens: "auto" }}>
-              Access complete visability through your phone or device.
-              We provide a complete range of security solutions, day
-              and night vision to improve security & enhance
-              capabilities.
-            </p>
-          </div>
-
-        </div>
-
-        <div className="serviceCard">
-          <div >
-            <img style={{width:'12rem',marginTop:'1rem'}}
-              src="assets/images/icon/service-01.png"
-              alt="service icons"
-            />
-          </div>
-          <div style={{marginLeft:'0.3rem'}}>
-            <h4>Residence Security</h4>
-            <p style={{ textAlign: "justify", hyphens: "auto" }}>
-              Access complete visability through your phone or device.
-              We provide a complete range of security solutions, day
-              and night vision to improve security & enhance
-              capabilities.
-            </p>
-          </div>
-
-        </div>
-
-        <div className="serviceCard">
-          <div >
-            <img style={{width:'12rem',marginTop:'1rem'}}
-              src="assets/images/icon/service-01.png"
-              alt="service icons"
-            />
-          </div>
-          <div style={{marginLeft:'0.3rem'}}>
-            <h4>Residence Security</h4>
-            <p style={{ textAlign: "justify", hyphens: "auto" }}>
-              Access complete visability through your phone or device.
-              We provide a complete range of security solutions, day
-              and night vision to improve security & enhance
-              capabilities.
-            </p>
-          </div>
-
-        </div>
-
-        <div className="serviceCard">
-          <div >
-            <img style={{width:'12rem',marginTop:'1rem'}}
-              src="assets/images/icon/service-01.png"
-              alt="service icons"
-            />
-          </div>
-          <div style={{marginLeft:'0.3rem'}}>
-            <h4>Residence Security</h4>
-            <p style={{ textAlign: "justify", hyphens: "auto" }}>
-              Access complete visability through your phone or device.
-              We provide a complete range of security solutions, day
-              and night vision to improve security & enhance
-              capabilities.
-            </p>
-          </div>
-
-        </div>
-
-        <div className="serviceCard">
-          <div >
-            <img style={{width:'12rem',marginTop:'1rem'}}
-              src="assets/images/icon/service-01.png"
-              alt="service icons"
-            />
-          </div>
-          <div style={{marginLeft:'0.3rem'}}>
-            <h4>Residence Security</h4>
-            <p style={{ textAlign: "justify", hyphens: "auto" }}>
-              Access complete visability through your phone or device.
-              We provide a complete range of security solutions, day
-              and night vision to improve security & enhance
-              capabilities.
-            </p>
-          </div>
-
-        </div>
-
-        <div className="serviceCard">
-          <div >
-            <img style={{width:'12rem',marginTop:'1rem'}}
-              src="assets/images/icon/service-01.png"
-              alt="service icons"
-            />
-          </div>
-          <div style={{marginLeft:'0.3rem'}}>
-            <h4>Residence Security</h4>
-            <p style={{ textAlign: "justify", hyphens: "auto" }}>
-              Access complete visability through your phone or device.
-              We provide a complete range of security solutions, day
-              and night vision to improve security & enhance
-              capabilities.
-            </p>
-          </div>
-
-        </div>
-
-        <div className="serviceCard">
-          <div >
-            <img style={{width:'12rem',marginTop:'1rem'}}
-              src="assets/images/icon/service-01.png"
-              alt="service icons"
-            />
-          </div>
-          <div style={{marginLeft:'0.3rem'}}>
-            <h4>Residence Security</h4>
-            <p style={{ textAlign: "justify", hyphens: "auto" }}>
-              Access complete visability through your phone or device.
-              We provide a complete range of security solutions, day
-              and night vision to improve security & enhance
-              capabilities.
-            </p>
-          </div>
-
-        </div>
-       
-
-
-      </div>
-
-
       <main class="page-content">
-
-
         {/* <div class="section-service"  style={{ marginTop: "3rem" }}>
           <div class="container-fluid plr_-0">
 
@@ -472,7 +307,10 @@ function Home() {
               <div class="col-lg-6">
                 <div data-aos="fade-up-left" class="agency-thumb">
                   <div class="thumb">
-                    <img src="assets/images/bg/1I0A4693.JPG" alt="Agency Images" />
+                    <img
+                      src="assets/images/bg/1I0A4693.JPG"
+                      alt="Agency Images"
+                    />
                     {/* <div class="play-btn">
                       <a
                         class="video-popup"
@@ -491,7 +329,7 @@ function Home() {
         <div
           data-aos="zoom-in"
           class="section-agency-benefit section-pt section-pb"
-          style={{ backgroundColor: "beige", marginTop: '1rem' }}
+          style={{ backgroundColor: "beige", marginTop: "1rem" }}
         >
           <div class="container">
             <div class="row align-items-center">
@@ -754,6 +592,94 @@ function Home() {
             </div>
           </div>
         </div> */}
+        <div class="container" style={{ textAlign: "center" }}>
+          <div class="col-md-12 section-title mt-5" style={{ textAlign: "center" }}>
+            <h2>
+              RANGE OF SERVICES
+            </h2>
+          </div>
+          <div className="serviceScrollSection">
+            <div className="serviceCard">
+              <div style={{ marginLeft: "0.2rem" }}>
+                <h5>Ex-Serviceman Guard</h5>
+                <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                  Get the best of all security for your place from an
+                  experienced serviceman who has served the country.
+                </p>
+              </div>
+            </div>
+
+            <div className="serviceCard">
+              <div style={{ marginLeft: "0.3rem" }}>
+                <h4>Security Executives</h4>
+                <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                  Feel secure with our security executives. Having faster
+                  decision-making sense makes them different. 
+                </p>
+              </div>
+            </div>
+
+            <div className="serviceCard">
+              <div style={{ marginLeft: "0.3rem" }}>
+                <h4>Lady Security Executives </h4>
+                <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                  For females, we have lady security executives who are equally
+                  strong and intelligent. 
+                </p>
+              </div>
+            </div>
+
+            <div className="serviceCard">
+              <div style={{ marginLeft: "0.3rem" }}>
+                <h4>Armed Security Executives </h4>
+                <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                  They are the best at the job, with the knowledge to operate
+                  the weapon and the best decision-making power during a crisis.
+                </p>
+              </div>
+            </div>
+
+            <div className="serviceCard">
+              <div style={{ marginLeft: "0.3rem" }}>
+                <h4>Bodyguards/ Bouncers/ Close protection officers </h4>
+                <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                  For better security, they are the best people because of their
+                  great consciousness and strong physic.
+                </p>
+              </div>
+            </div>
+
+            <div className="serviceCard">
+              <div style={{ marginLeft: "0.3rem" }}>
+                <h4>Escort and Pilot Duties </h4>
+                <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                  Make your journey more protected with the escort and pilots.
+                  Smart profiles and great skills make them the best.
+                </p>
+              </div>
+            </div>
+
+            <div className="serviceCard">
+              <div style={{ marginLeft: "0.3rem" }}>
+                <h4>Consultancy Services </h4>
+                <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                  In every path of life you need consultation and we are here
+                  for that. Help you get the best suggestions.
+                </p>
+              </div>
+            </div>
+
+            <div className="serviceCard">
+              <div style={{ marginLeft: "0.3rem" }}>
+                <h4>Event Management/ Celebrity program </h4>
+                <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                  A celebrity event or any other public event we make the best
+                  for you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="reapir-choose-us section-ptb" data-aos="zoom-out">
           <div class="container">

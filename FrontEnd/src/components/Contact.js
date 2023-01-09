@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 
 function Contact() {
-  const [subject,setSubject]=useState()
-  const [email,setEmail]=useState()
-  const [message,setMessage]=useState()
+  const [subject, setSubject] = useState();
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
   return (
     <div>
       <div
         class="breadcrumb-area bg-image section-ptb"
         style={{
           background: "url(assets/images/about/cocontact-us.jpg)",
-          backgroundPosition:'center',
-          backgroundSize:'cover',
-          backgroundRepeat:'no-repeat',
-          marginTop:'5rem'
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          marginTop: "5rem",
         }}
       >
         <div class="container">
@@ -69,13 +69,14 @@ function Contact() {
                       action="http://hasthemes.com/file/mail.php"
                     >
                       <div class="row">
-              
                         <div class="col-lg-12  mb-30">
                           <input
                             name="con_email"
                             type="email"
                             placeholder="Email*"
-                            onChange={(e)=>{setEmail(e.target.value)}}
+                            onChange={(e) => {
+                              setEmail(e.target.value);
+                            }}
                           />
                         </div>
                         <div class="col-lg-12  mb-30">
@@ -83,18 +84,26 @@ function Contact() {
                             name="con_subject"
                             type="text"
                             placeholder="Subject*"
-                            onChange={(e)=>{setSubject(e.target.value)}}
+                            onChange={(e) => {
+                              setSubject(e.target.value);
+                            }}
                           />
                         </div>
                         <div class="col-lg-12  mb-30">
                           <textarea
                             name="con_message"
                             placeholder="Your Message*"
-                              onChange={(e)=>{setSubject(e.target.value)}}
+                            onChange={(e) => {
+                              setMessage(e.target.value);
+                            }}
                           ></textarea>
                         </div>
-                        <div class="col-lg-12">   
-                          <a href={`mailto:asifsaheer7034@gmail.com?subject=${subject}&body=${message}`} type="submit" class="submit-btn default-btn">
+                        <div class="col-lg-12">
+                          <a
+                            href={`mailto:support@greencorps.in?subject=${subject}&body=${message}`}
+                            type="submit"
+                            class="submit-btn default-btn"
+                          >
                             Send
                           </a>
                           <p class="form-messege"></p>
