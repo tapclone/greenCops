@@ -43,7 +43,7 @@ function HouseKeeping() {
               <div class="col-lg-12">
                 <div class="section-title text-center">
                   <h2 style={{ textAlign: "center" }}>
-                    Our House Keeping Services
+                   House Keeping Services
                   </h2>
                 </div>
                 <p

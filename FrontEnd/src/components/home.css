@@ -7,8 +7,8 @@
 .bannerImg{
     min-height: 23rem;
 }
-@media (max-width:370px) {
+@media (max-width:600px) {
     .bannerImg{
-        min-height: 15rem;
+        min-height: 14rem;
     }
 }
