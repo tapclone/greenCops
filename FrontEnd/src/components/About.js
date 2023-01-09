@@ -43,9 +43,8 @@ function About() {
         style={{
           background: "url(assets/images/about/businessman.jpg)",
           backgroundSize: "cover",
-          backgroundPosition: 'center',
-          marginTop: '5rem'
-
+          backgroundPosition: "center",
+          marginTop: "5rem",
         }}
       >
         <div class="container">
@@ -90,19 +89,10 @@ function About() {
                       Mysore, Mangalore, Trivandrum and Kochi.
                     </p>
 
-                    <p style={{ textAlign: "justify" }}>
-                      {" "}
-                      We realize that a major concern in urban residential
-                      sector is the non-availability of trustworthy cleaning
-                      personnel to do their job while one is at work. That's why
-                      Green Corps make it a point to ensure that the
-                      housekeepers you employ are absolutely reliable. We
-                      recruit and train workers after verification of their
-                      backgrounds and strict directives for their on the job dos
-                      and don'ts. In other words, with Green Corps, you can
-                      safely leave your key behind regardless of where you are.
-                    </p>
-                    <a href="/contact" class="btn contact-btn mt-30 btn-circle">
+                    <a
+                      href="/contact"
+                      class="btn contact-btn mt-30 btn-circle mb-5"
+                    >
                       CONTACT US
                     </a>
                   </div>
@@ -111,8 +101,32 @@ function About() {
               <div class="col-lg-6">
                 <div class="agency-thumb">
                   <div class="thumb">
+                    <img src="assets/images/bg/1I0A4693.JPG" alt="Agency Images" />
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="section-agency-benefit section-pt section-pb mb-5"
+          style={{ backgroundColor: "beige" }}
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div
+                class="col-md-12 section-title "
+                style={{ textAlign: "center", marginBottom: "0px" }}
+              >
+                <h2>Mr. Santhosh Kumar N S (Director)</h2>
+              </div>
+              <div class="col-lg-5">
+                <div class="agency-thumb">
+                  <div class="thumb">
                     <img
-                      src="assets/images/bg/new.jpg"
+                      src="assets/images/about/director.jpeg"
                       alt="Agency Images"
                     />
                     {/* <div class="play-btn">
@@ -126,10 +140,39 @@ function About() {
                   </div>
                 </div>
               </div>
+              <div class="col-lg-7">
+                <div class="agency-benefits">
+                  <div class="content">
+                    <p
+                      style={{
+                        textAlign: "justify",
+                        hyphens: "auto",
+                        fontSize: "large",
+                        marginTop: "20px",
+                      }}
+                    >
+                      Mr. Santhosh Kumar N S, Director of the Company, is
+                      graduated with LLB degree from SDM Law College, Manglore
+                      and also holding Diploma in Personnel Management. He has
+                      more than 15 years of experience in providing security
+                      management services. Mr. Santhosh Kumar N S is the
+                      promoter and Director of M/s. Green Corps Facility
+                      Management Services (OPC) Private Limited which is one of
+                      the leading security service providers in the country,
+                      providing professional services to all corporate, public
+                      sectors and private institutions and has an excellent
+                      track record in its kind. The scope of company activities
+                      includes security and facility management services etc. He
+                      heads the commercial relationship management of the
+                      Company. He is also promoter and Director M/s. Cactus
+                      Exploration LLC, Okhlahoma, US.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
         <div
           className=" project-count-area image-bg section-pt-90 section-pb"
           style={{ background: "url(assets/images/bg/about-bg.jpg)" }}
@@ -207,153 +250,6 @@ function About() {
                         <p>Project Completed</p>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-team section-pt section-pb-90 bg-gray">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-title text-center">
-                  <h2 style={{ textAlign: "center" }}>Our Guards</h2>
-                  {/* <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                    do eiusmod tempor incididunt ut labore
-                  </p> */}
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="team team-8 mb-30">
-                  <div class="thumb">
-                    <a href="#">
-                      <img
-                        src="assets/images/team/young-police.jpg"
-                        alt="team img"
-                      />
-                    </a>
-                  </div>
-                  <div class="team-info">
-                    <div class="content">
-                      <h4>
-                        <a href="#">Cheryl Murray</a>
-                      </h4>
-                      <span>Director</span>
-                    </div>
-                    {/* <ul class="social-network social-net-2">
-                      <li>
-                        <a class="facebook" href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="twitter" href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="google-plus" href="#">
-                          <i class="fa fa-google-plus"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="vimeo" href="#">
-                          <i class="fa fa-vimeo"></i>
-                        </a>
-                      </li>
-                    </ul> */}
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="team team-8 mb-30">
-                  <div class="thumb">
-                    <a href="#">
-                      <img
-                        src="assets/images/team/young-police.jpg"
-                        alt="team img"
-                      />
-                    </a>
-                  </div>
-                  <div class="team-info">
-                    <div class="content">
-                      <h4>
-                        <a href="#">Doris Welch</a>
-                      </h4>
-                      <span>Director</span>
-                    </div>
-                    {/* <ul class="social-network social-net-2">
-                      <li>
-                        <a class="facebook" href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="twitter" href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="google-plus" href="#">
-                          <i class="fa fa-google-plus"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="vimeo" href="#">
-                          <i class="fa fa-vimeo"></i>
-                        </a>
-                      </li>
-                    </ul> */}
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="team team-8 mb-30">
-                  <div class="thumb">
-                    <a href="#">
-                      <img
-                        src="assets/images/team/young-police.jpg"
-                        alt="team img"
-                      />
-                    </a>
-                  </div>
-                  <div class="team-info">
-                    <div class="content">
-                      <h4>
-                        <a href="#">Virginia Moore</a>
-                      </h4>
-                      <span>Director</span>
-                    </div>
-                    {/* <ul class="social-network social-net-2">
-                      <li>
-                        <a class="facebook" href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="twitter" href="#">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="google-plus" href="#">
-                          <i class="fa fa-google-plus"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="vimeo" href="#">
-                          <i class="fa fa-vimeo"></i>
-                        </a>
-                      </li>
-                    </ul> */}
                   </div>
                 </div>
               </div>

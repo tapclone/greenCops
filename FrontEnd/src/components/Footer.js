@@ -13,12 +13,17 @@ function Footer() {
                 </h5>
                 <div class="content">
                   <p style={{ textAlign: "justify" }}>
-                    A leading security and personnel service providers in the
-                    country providing professional services to all corporate,
-                    public sectors and private institutions on a reasonable
-                    rate. We keep an excellent track record of more than 18
-                    years with an efficient and experienced management and
-                    staff.
+                    The Greencorps was founded in 2005, at a time when a fast
+                    moving economy demanded reliable safety and security
+                    services. The vision was to provide world class security,
+                    investigation and house keeping services to its clients when
+                    industrial strife and scarcity of credible and competent
+                    professionals were looming large over the business
+                    fraternity. The company has since then grown many folds and
+                    today is a one stop shop for security, safety and
+                    housekeeping solutions. It has operation centres across
+                    south India, including major cities like Bangalore, Mysore,
+                    Mangalore, Trivandrum and Kochi
                   </p>
                 </div>
               </div>

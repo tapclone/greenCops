@@ -188,7 +188,7 @@ function Home() {
               <div class="col-lg-6">
                 <div data-aos="fade-up-left" class="agency-thumb">
                   <div class="thumb">
-                    <img src="assets/images/bg/new.jpg" alt="Agency Images" />
+                    <img src="assets/images/bg/1I0A4693.JPG" alt="Agency Images" />
                     {/* <div class="play-btn">
                       <a
                         class="video-popup"
@@ -247,7 +247,7 @@ function Home() {
                 <div class="agency-thumb">
                   <div class="thumb">
                     <img
-                      src="assets/images/bg/bank-security-officer.jpg"
+                      src="assets/images/bg/1I0A4697.JPG"
                       alt="Agency Images"
                     />
                     {/* <div class="play-btn">
@@ -555,7 +555,7 @@ function Home() {
                 <div class="reapir-choose-inner">
                   <div class="choose-resone-inner mt-20">
                     <img
-                      src="assets/images/bg/security-man-standing-outdoors-using-portable-radio.jpg"
+                      src="assets/images/bg/1I0A4693.JPG"
                       alt="Agency Images"
                     />
                     {/* 

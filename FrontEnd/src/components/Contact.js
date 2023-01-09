@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [subject,setSubject]=useState()
+  const [email,setEmail]=useState()
+  const [message,setMessage]=useState()
   return (
     <div>
       <div
@@ -20,7 +23,7 @@ function Contact() {
 
               <ul class="breadcrumb-list">
                 <li class="breadcrumb-item">
-                  <a href="index.html">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li class="breadcrumb-item active">Contact Us</li>
               </ul>
@@ -66,18 +69,13 @@ function Contact() {
                       action="http://hasthemes.com/file/mail.php"
                     >
                       <div class="row">
-                        <div class="col-lg-12 mb-30">
-                          <input
-                            name="con_name"
-                            type="text"
-                            placeholder="Name*"
-                          />
-                        </div>
+              
                         <div class="col-lg-12  mb-30">
                           <input
                             name="con_email"
                             type="email"
                             placeholder="Email*"
+                            onChange={(e)=>{setEmail(e.target.value)}}
                           />
                         </div>
                         <div class="col-lg-12  mb-30">
@@ -85,18 +83,20 @@ function Contact() {
                             name="con_subject"
                             type="text"
                             placeholder="Subject*"
+                            onChange={(e)=>{setSubject(e.target.value)}}
                           />
                         </div>
                         <div class="col-lg-12  mb-30">
                           <textarea
                             name="con_message"
                             placeholder="Your Message*"
+                              onChange={(e)=>{setSubject(e.target.value)}}
                           ></textarea>
                         </div>
-                        <div class="col-lg-12">
-                          <button type="submit" class="submit-btn default-btn">
+                        <div class="col-lg-12">   
+                          <a href={`mailto:asifsaheer7034@gmail.com?subject=${subject}&body=${message}`} type="submit" class="submit-btn default-btn">
                             Send
-                          </button>
+                          </a>
                           <p class="form-messege"></p>
                         </div>
                       </div>
