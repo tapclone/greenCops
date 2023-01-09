@@ -7,7 +7,7 @@ import BannerSlider from "./BannerSlider";
 
 function Home() {
 
-    
+
   // const [activeSlide, setActiveSlide] = useState(0);
   return (
     <div>
@@ -34,12 +34,181 @@ function Home() {
     </div>
     
 </div> */}
+
+
+      <div className="serviceScrollSection">
+
+        <div className="serviceCard">
+          <div >
+            <img style={{width:'12rem',marginTop:'1rem'}}
+              src="assets/images/icon/service-01.png"
+              alt="service icons"
+            />
+          </div>
+          <div style={{marginLeft:'0.3rem'}}>
+            <h4>Residence Security</h4>
+            <p style={{ textAlign: "justify", hyphens: "auto" }}>
+              Access complete visability through your phone or device.
+              We provide a complete range of security solutions, day
+              and night vision to improve security & enhance
+              capabilities.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="serviceCard">
+          <div >
+            <img style={{width:'12rem',marginTop:'1rem'}}
+              src="assets/images/icon/service-01.png"
+              alt="service icons"
+            />
+          </div>
+          <div style={{marginLeft:'0.3rem'}}>
+            <h4>Residence Security</h4>
+            <p style={{ textAlign: "justify", hyphens: "auto" }}>
+              Access complete visability through your phone or device.
+              We provide a complete range of security solutions, day
+              and night vision to improve security & enhance
+              capabilities.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="serviceCard">
+          <div >
+            <img style={{width:'12rem',marginTop:'1rem'}}
+              src="assets/images/icon/service-01.png"
+              alt="service icons"
+            />
+          </div>
+          <div style={{marginLeft:'0.3rem'}}>
+            <h4>Residence Security</h4>
+            <p style={{ textAlign: "justify", hyphens: "auto" }}>
+              Access complete visability through your phone or device.
+              We provide a complete range of security solutions, day
+              and night vision to improve security & enhance
+              capabilities.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="serviceCard">
+          <div >
+            <img style={{width:'12rem',marginTop:'1rem'}}
+              src="assets/images/icon/service-01.png"
+              alt="service icons"
+            />
+          </div>
+          <div style={{marginLeft:'0.3rem'}}>
+            <h4>Residence Security</h4>
+            <p style={{ textAlign: "justify", hyphens: "auto" }}>
+              Access complete visability through your phone or device.
+              We provide a complete range of security solutions, day
+              and night vision to improve security & enhance
+              capabilities.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="serviceCard">
+          <div >
+            <img style={{width:'12rem',marginTop:'1rem'}}
+              src="assets/images/icon/service-01.png"
+              alt="service icons"
+            />
+          </div>
+          <div style={{marginLeft:'0.3rem'}}>
+            <h4>Residence Security</h4>
+            <p style={{ textAlign: "justify", hyphens: "auto" }}>
+              Access complete visability through your phone or device.
+              We provide a complete range of security solutions, day
+              and night vision to improve security & enhance
+              capabilities.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="serviceCard">
+          <div >
+            <img style={{width:'12rem',marginTop:'1rem'}}
+              src="assets/images/icon/service-01.png"
+              alt="service icons"
+            />
+          </div>
+          <div style={{marginLeft:'0.3rem'}}>
+            <h4>Residence Security</h4>
+            <p style={{ textAlign: "justify", hyphens: "auto" }}>
+              Access complete visability through your phone or device.
+              We provide a complete range of security solutions, day
+              and night vision to improve security & enhance
+              capabilities.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="serviceCard">
+          <div >
+            <img style={{width:'12rem',marginTop:'1rem'}}
+              src="assets/images/icon/service-01.png"
+              alt="service icons"
+            />
+          </div>
+          <div style={{marginLeft:'0.3rem'}}>
+            <h4>Residence Security</h4>
+            <p style={{ textAlign: "justify", hyphens: "auto" }}>
+              Access complete visability through your phone or device.
+              We provide a complete range of security solutions, day
+              and night vision to improve security & enhance
+              capabilities.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="serviceCard">
+          <div >
+            <img style={{width:'12rem',marginTop:'1rem'}}
+              src="assets/images/icon/service-01.png"
+              alt="service icons"
+            />
+          </div>
+          <div style={{marginLeft:'0.3rem'}}>
+            <h4>Residence Security</h4>
+            <p style={{ textAlign: "justify", hyphens: "auto" }}>
+              Access complete visability through your phone or device.
+              We provide a complete range of security solutions, day
+              and night vision to improve security & enhance
+              capabilities.
+            </p>
+          </div>
+
+        </div>
+       
+
+
+      </div>
+
+
       <main class="page-content">
-        <div class="section-service"  style={{ marginTop: "3rem" }}>
+
+
+        {/* <div class="section-service"  style={{ marginTop: "3rem" }}>
           <div class="container-fluid plr_-0">
-            <div class="row g-0">
-              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap_white servicesDetails">
+
+            <div>
+
+            </div>
+
+            <div class="row g-0" >
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap_white servicesDetails" style={{}}>
                   <div class="service text-start service-6 medical-service">
                     <div class="icons">
                       <img
@@ -57,8 +226,8 @@ function Home() {
                       </p>
                     </div>
                   </div>
+                  </div>
                 </div>
-              </div>
 
               <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
@@ -124,9 +293,116 @@ function Home() {
                   </div>
                 </div>
               </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
+                  <div class="service text-start service-6 medical-service service-bg-2">
+                    <div class="icons">
+                      <img
+                        src="assets/images/icon/service-04.png"
+                        alt="service icons"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4>House Keeping Services</h4>
+                      <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                        We offer & manage ongoing maintenance of your security
+                        systems. Keeping it working as it should be and keeping
+                        up with improvements that can be made.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
+                  <div class="service text-start service-6 medical-service service-bg-2">
+                    <div class="icons">
+                      <img
+                        src="assets/images/icon/service-04.png"
+                        alt="service icons"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4>House Keeping Services</h4>
+                      <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                        We offer & manage ongoing maintenance of your security
+                        systems. Keeping it working as it should be and keeping
+                        up with improvements that can be made.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
+                  <div class="service text-start service-6 medical-service service-bg-2">
+                    <div class="icons">
+                      <img
+                        src="assets/images/icon/service-04.png"
+                        alt="service icons"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4>House Keeping Services</h4>
+                      <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                        We offer & manage ongoing maintenance of your security
+                        systems. Keeping it working as it should be and keeping
+                        up with improvements that can be made.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
+                  <div class="service text-start service-6 medical-service service-bg-2">
+                    <div class="icons">
+                      <img
+                        src="assets/images/icon/service-04.png"
+                        alt="service icons"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4>House Keeping Services</h4>
+                      <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                        We offer & manage ongoing maintenance of your security
+                        systems. Keeping it working as it should be and keeping
+                        up with improvements that can be made.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
+                  <div class="service text-start service-6 medical-service service-bg-2">
+                    <div class="icons">
+                      <img
+                        src="assets/images/icon/service-04.png"
+                        alt="service icons"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4>House Keeping Services</h4>
+                      <p style={{ textAlign: "justify", hyphens: "auto" }}>
+                        We offer & manage ongoing maintenance of your security
+                        systems. Keeping it working as it should be and keeping
+                        up with improvements that can be made.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div data-aos="fade-up-right" class="section-agency-benefit section-pt section-pb">
           <div class="container">
@@ -189,7 +465,7 @@ function Home() {
 
         <div data-aos='zoom-in'
           class="section-agency-benefit section-pt section-pb"
-          style={{ backgroundColor: "beige",marginTop:'1rem' }}
+          style={{ backgroundColor: "beige", marginTop: '1rem' }}
         >
           <div class="container">
             <div class="row align-items-center">
