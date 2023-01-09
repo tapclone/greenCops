@@ -90,7 +90,7 @@ function About() {
                       Mysore, Mangalore, Trivandrum and Kochi.
                     </p>
 
-                    <p>
+                    <p style={{ textAlign: "justify" }}>
                       {" "}
                       We realize that a major concern in urban residential
                       sector is the non-availability of trustworthy cleaning

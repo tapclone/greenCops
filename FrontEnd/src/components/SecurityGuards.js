@@ -1,11 +1,10 @@
-import {React,useState,useEffect} from "react";
- 
+import { React, useState, useEffect } from "react";
 
 function SecurityGuards() {
-  const [state,setState]=useState(false)
-  useEffect(()=>{
-    document.documentElement.scrollTop=0;
-  },[state])
+  const [state, setState] = useState(false);
+  useEffect(() => {
+    document.documentElement.scrollTop = 0;
+  }, [state]);
   return (
     <div>
       <div
@@ -14,9 +13,9 @@ function SecurityGuards() {
           background:
             "url(assets/images/bg/cctv-security-technology-with-lock-icon-digital-remix.jpg)",
           backgroundRepeat: "no-repeat",
-          backgroundSize:"cover",
-          backgroundPosition:'center',
-          marginTop:'5rem'
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          marginTop: "5rem",
         }}
       >
         <div class="container">
@@ -42,7 +41,7 @@ function SecurityGuards() {
               <div class="col-lg-12">
                 <div class="section-title text-center">
                   <h2 style={{ textAlign: "center" }}>
-                    Our Security Guards Services
+                    Security Guards Services
                   </h2>
                 </div>
                 <p
@@ -74,7 +73,7 @@ function SecurityGuards() {
                     />
                   </div>
                   <div class="content">
-                    <h4>Ex-Service Guard</h4>
+                    <h4>Ex-Servicemen Guard</h4>
                   </div>
                 </div>
               </div>
@@ -137,18 +136,39 @@ function SecurityGuards() {
               <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                 <div class="service text-center service-2 padding-none cleaning-service  mb-30">
                   <div class="thumb">
-                  
-                      <img
-                        src="assets/images/serviece/security-6.jpg"
-                        alt="service img"
-                      />
-                
+                    <img
+                      src="assets/images/serviece/high-angle-guard-man-protecting-client.jpg"
+                      alt="service img"
+                    />
                   </div>
                   <div class="content">
-                    <h4>
-                 Office Security
-                    </h4>
-             
+                    <h4>Escort And Pilot Duties</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+                <div class="service text-center service-2 padding-none cleaning-service  mb-30">
+                  <div class="thumb">
+                    <img
+                      src="assets/images/serviece/Event-Management.jpg"
+                      alt="service img"
+                    />
+                  </div>
+                  <div class="content">
+                    <h4>Consultancy Services</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+                <div class="service text-center service-2 padding-none cleaning-service  mb-30">
+                  <div class="thumb">
+                    <img
+                      src="assets/images/serviece/airport-security-officer-using-metal-detector-check-bag.jpg"
+                      alt="service img"
+                    />
+                  </div>
+                  <div class="content">
+                    <h4>Event Management / Celebrity Program</h4>
                   </div>
                 </div>
               </div>

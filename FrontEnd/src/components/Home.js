@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import './home.css'
+import "./home.css";
 
 import Section from "./heroBannerSlider/Section";
 import BannerSlider from "./BannerSlider";
 // import Carousels from "react-simply-carousel";
 
 function Home() {
+
 
 
   // const [activeSlide, setActiveSlide] = useState(0);
@@ -209,6 +210,15 @@ function Home() {
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap_white servicesDetails" style={{}}>
+        <div class="section-service" style={{ marginTop: "3rem" }}>
+          <div class="container-fluid plr_-0">
+            <div class="row g-0">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  class="row-service-wrap_white servicesDetails"
+                >
                   <div class="service text-start service-6 medical-service">
                     <div class="icons">
                       <img
@@ -230,7 +240,11 @@ function Home() {
                 </div>
 
               <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  class="row-service-wrap servicesDetails"
+                >
                   <div class="service text-start service-6 medical-service service-bg-2">
                     <div class="icons">
                       <img
@@ -252,7 +266,11 @@ function Home() {
               </div>
 
               <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap_white servicesDetails">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  class="row-service-wrap_white servicesDetails"
+                >
                   <div class="service text-start service-6 medical-service">
                     <div class="icons">
                       <img
@@ -274,7 +292,11 @@ function Home() {
               </div>
 
               <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div data-aos="fade-up" data-aos-duration="1000" class="row-service-wrap servicesDetails">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  class="row-service-wrap servicesDetails"
+                >
                   <div class="service text-start service-6 medical-service service-bg-2">
                     <div class="icons">
                       <img
@@ -404,7 +426,10 @@ function Home() {
           </div>
         </div> */}
 
-        <div data-aos="fade-up-right" class="section-agency-benefit section-pt section-pb">
+        <div
+          data-aos="fade-up-right"
+          class="section-agency-benefit section-pt section-pb"
+        >
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6">
@@ -416,16 +441,16 @@ function Home() {
                       </h2>
                     </div>
                     <p style={{ textAlign: "justify", hyphens: "auto" }}>
-                      We are leading security and personnel service providers in
-                      the country providing professional services to all
-                      corporate, public sectors and private institutions on a
-                      reasonable rate. We keep an excellent track record of more
-                      than 18 years with an efficient and experienced management
-                      and staff. We have the state of the art infrastructure
-                      fitted with cutting edge security equipment, well
-                      supplemented by number of trained personnel which included
-                      a good strength of Ex-Servicemen. We have 90% of client
-                      and 80% of Employee retention.
+                      We are the leading security and personnel service
+                      providers in the country providing professional services
+                      to all corporate, public sectors and private institutions
+                      on a reasonable rate. We keep an excellent track record of
+                      more than 18 years with an efficient and experienced
+                      management and staff. We have the state of the art
+                      infrastructure fitted with cutting edge security
+                      equipment, well supplemented by number of trained
+                      personnel which included a good strength of Ex-Servicemen.
+                      We have 90% of client and 80% of Employee retention.
                     </p>
                     <p style={{ textAlign: "justify", hyphens: "auto" }}>
                       Green corps Security and Facility Management Services Pvt
@@ -438,7 +463,7 @@ function Home() {
                       the basis of detailed procedures backed up by quality
                       staff.
                     </p>
-                    <a href="#" class="btn contact-btn mt-30 btn-circle">
+                    <a href="/contact" class="btn contact-btn mt-30 btn-circle">
                       CONTACT US
                     </a>
                   </div>
@@ -463,7 +488,8 @@ function Home() {
           </div>
         </div>
 
-        <div data-aos='zoom-in'
+        <div
+          data-aos="zoom-in"
           class="section-agency-benefit section-pt section-pb"
           style={{ backgroundColor: "beige", marginTop: '1rem' }}
         >

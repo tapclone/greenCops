@@ -2,9 +2,15 @@
 .bannerImg{
     min-height: 23rem;
 }
+
 @media (max-width:510px) {
     .bannerImg{
         min-height: 20rem;
+    }
+}
+@media (max-width:600px) {
+    .bannerImg{
+        min-height: 14rem;
     }
 }
 @media (max-width:455px) {
